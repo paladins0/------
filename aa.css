@@ -18,6 +18,14 @@ main {
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 7px;
+    color: #333;
+}
+
 .regions, .gallery {
     background: white;
     padding: 20px;

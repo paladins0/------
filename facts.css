@@ -224,3 +224,9 @@ nav {
     cursor: pointer;
     margin-left: 20px;
 }
+.theme-button:hover {
+    background-color: rgb(209, 153, 101);
+    box-shadow: 2px 2px 5px 2px #4b160d;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: .2s;
+}

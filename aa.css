@@ -19,7 +19,7 @@ main {
 }
 
 .regions, .gallery {
-    background: white;
+    background-color:#ffffff;
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
@@ -32,6 +32,7 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px;
+    
 }
 
 .container ul {
@@ -74,7 +75,7 @@ footer {
 }
 
 .theme-button:hover {
-    background-color: gray;
+    background-color: rgba(122, 228, 122, 0.986);
     box-shadow: 2px 2px 5px 2px #4b160d;
     transform: scale(1.05) rotate(5deg);
     transition-duration: .2s;

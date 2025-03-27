@@ -18,20 +18,12 @@ main {
     padding: 20px;
 }
 
-a {
-    text-decoration: none;
-    background-color: white;
-    border-radius: 15px;
-    padding: 7px;
-    color: #333;
-}
-
 .regions, .gallery {
     background: white;
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(70, 5, 5, 0.1);
     max-width: 1000px;
 }
 
@@ -56,7 +48,7 @@ a {
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(83, 9, 9, 0.1);
 }
 
 footer {
@@ -66,3 +58,56 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.theme-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+
+.theme-button:hover {
+    background-color: gray;
+    box-shadow: 2px 2px 5px 2px #4b160d;
+    transform: scale(1.05) rotate(5deg);
+    transition-duration: .2s;
+}
+.keep-text-color {
+    color: black !important;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.canada, .usa, .mexico {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+}
+
+
+
+
+
+

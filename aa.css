@@ -75,7 +75,7 @@ footer {
 }
 
 .theme-button:hover {
-    background-color: rgba(122, 228, 122, 0.986);
+    background-color: rgba(31, 89, 197, 0.986);
     box-shadow: 2px 2px 5px 2px #4b160d;
     transform: scale(1.05) rotate(5deg);
     transition-duration: .2s;
